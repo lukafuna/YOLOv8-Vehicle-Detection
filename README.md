@@ -20,7 +20,7 @@ compared.
 1. Each frame of the input video is read with OpenCV.
 2. The frame is passed to the YOLOv8 model, which returns bounding boxes, class IDs and confidence scores.
 3. Detections that belong to vehicle classes are kept, and the rest are ignored.
-4. The boxes and labels are drawn onto the frame and displayed (or saved).
+4. The boxes and labels are drawn onto the frame and displayed.
 
 ### Comparison
 
